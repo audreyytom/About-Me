@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>FORMS</h1>
+      <img src="download.jpg" class="header" alt="Forms" />
+      <nav>
+        <ul class="links">
+          <li><a href="index.html">About me</a></li>
+          <li><a href="capybara.html">Interests</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form action="">
+      <p>Username:
+        <input type="text" name="username" maxlength="30"/>
+        Password: 
+        <input type="password" name="password" maxlength="30">
+      </p>
+      <p>
+        Comments?
+      </p>
+      <p>
+        <textarea name="comments" cols="40" rows="15">
+          Enter your comments...
+        </textarea>
+      </p>
+      <p>
+        Please select your favorite page
+        <br/>
+        <input type="radio" name="About me" value="about"/> About me 
+        <input type="radio" name="Interests" value="interest"/> Interests
+      </p>
+      <p>
+        Favorite artist
+        <br/>
+        <input type="checkbox" name="bob" value="bob"/> Bob Ross
+        <input type="checkbox" name="picasso" value="picasso"> Picasso
+        <input type="checkbox" name="Leonardo" value="Leonardo"> Leonardo
+      </p>
+      <p>
+        <label for="Username">Date accessed:</label>
+      <input type="date" name="date"/>
+      </p>
+    </form>
+  </body>
+</html>
